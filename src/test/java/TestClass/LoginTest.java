@@ -28,7 +28,7 @@ public class LoginTest extends BaseClass
   {
      
       
-      driver.get("file:///E:/Selenium/OfflineWebsiteForSelenium/OfflineWebsite/pages/examples/login.html");
+      driver.get("file:///C:/Users/avina/Downloads/IT%20vedant/Selenium-20260730T142733Z-1-001/Selenium/Selenium%20Basic%20Automation/OfflineWebsiteForSelenium/OfflineWebsite/pages/examples/login.html");
 	  
       test.info("Opened URL");
       
@@ -37,7 +37,7 @@ public class LoginTest extends BaseClass
 	  
       test.info("Clicked login button");
       
-      if(driver.getCurrentUrl().equals("file:///E:/Selenium/OfflineWebsiteForSelenium/OfflineWebsite/pages/examples/dashboard1.html"))
+      if(driver.getCurrentUrl().equals("file:///C:/Users/avina/Downloads/IT%20vedant/Selenium-20260730T142733Z-1-001/Selenium/Selenium%20Basic%20Automation/OfflineWebsiteForSelenium/OfflineWebsite/pages/examples/dashboard1.html"))
     		{
     		    test.pass("Login Successful");
     		    
